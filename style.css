@@ -107,7 +107,7 @@ header{
 .logo {
     position: absolute;
     text-align: center;
-    /* border-radius: 50%; */
+    border-radius: 50%;
     background-color: #FF6864;
     color: white;
     width: 120px;
