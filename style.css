@@ -1,0 +1,128 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAF0DC;
+    font-family: "Gill Sans", sans-serif;;
+}
+
+header{
+    
+    margin: 0 auto;
+    width: 60%;
+}
+.nav-container {
+    display: flex;
+    color: rgb(3, 3, 127);
+    font-weight: 700;
+    padding: 20px;
+    justify-content: center;
+
+}
+.nav-spacing {
+    padding: 0px 10%;
+}
+
+.nav-container > ul{
+    display:flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-container > h3{
+    border: 2px solid rgb(3, 3, 127);
+    padding: 20px;
+    font-size: 30px;
+    
+}
+
+.nav-container > ul > li{
+    
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.nav-container > ul > li > a{
+    color: rgb(3, 3, 127);
+    text-decoration: none;
+
+}
+.group-banner{
+    position: absolute;
+    display:flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.photo-image{
+    background-image: url("images/sandy.jpg");
+    background-position: right -90px bottom -200px;
+    width: 725px;
+    height: 725px;
+}
+.home-content{
+    position: relative;
+    background-color: #0B4141;
+    color: #FAF0DC;
+    text-align: center;
+    width: 700px;
+    height: 700px;
+    top: 12px;
+    left: 35px;
+
+    
+}
+
+.content-container > h1{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #FAF0DC;
+
+}
+.content-container{
+    margin: 100px 50px;
+    font-size: 30px;
+}
+
+.content-container > p{
+    padding: 20px;
+    margin: 50px;
+}
+
+.content-container > a{
+    position:relative;
+    flex-direction: row;
+    text-decoration: none;
+    color: #FAF0DC;
+    padding: 10px;
+    margin:20px;
+    border: 1px solid #FAF0DC;
+    
+    
+}
+
+.logo {
+    position: absolute;
+    text-align: center;
+    /* border-radius: 50%; */
+    background-color: #FF6864;
+    color: white;
+    width: 120px;
+    height: 120px;
+    top: 90%;
+    left: 85%;
+}
+
+.logo > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    
+    
+}
